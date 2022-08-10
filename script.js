@@ -29,7 +29,7 @@ squares.forEach(square=>
     })
 })
 let mytime
-let timeup=10
+let timeup=window.prompt("Nhap so giay ban muon choi")
 let starttime
 function start()
 {
