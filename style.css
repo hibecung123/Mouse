@@ -1,0 +1,52 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url(https://img.freepik.com/premium-vector/valentines-day-background-paper-style_52683-54030.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: border-box;
+   
+}
+.title
+{
+    text-align: center;
+    color: red;
+    margin-top: 10px;
+    font-size: 50px;
+}
+#Score,#Time
+{
+    color: red;
+    margin-bottom:10px;
+}
+.grid
+{
+    width: 450px;
+    height:450px;
+    display:flex;
+    flex-wrap: wrap;
+    margin:auto; 
+}
+h2
+{
+    color: red;
+    margin-bottom:10px;
+}
+.square
+{
+    width:150px;
+    height:150px;
+    border: 2px solid blue;
+}
+.mole
+{
+    background-image: url(https://meohaychoban.com/wp-content/uploads/2021/05/Chuot-hamster-bao-nhieu-tien-o-viet-nam.jpg);
+    background-size: cover;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+}
