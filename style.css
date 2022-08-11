@@ -10,6 +10,7 @@ body
     background-repeat: no-repeat;
     background-size: cover;
     background-origin: border-box;
+    position: relative;
    
 }
 .title
@@ -17,7 +18,7 @@ body
     text-align: center;
     color: red;
     margin-top: 10px;
-    font-size: 50px;
+    font-size: 40px;
 }
 #Score,#Time
 {
@@ -26,8 +27,8 @@ body
 }
 .grid
 {
-    width: 450px;
-    height:450px;
+    width: 420px;
+    height:420px;
     display:flex;
     flex-wrap: wrap;
     margin:auto; 
@@ -39,14 +40,39 @@ h2
 }
 .square
 {
-    width:150px;
-    height:150px;
+    width:140px;
+    height:140px;
     border: 2px solid blue;
 }
 .mole
 {
-    background-image: url(https://meohaychoban.com/wp-content/uploads/2021/05/Chuot-hamster-bao-nhieu-tien-o-viet-nam.jpg);
+    background-image: url(https://scontent.fsgn2-4.fna.fbcdn.net/v/t1.15752-9/297928416_458490339242322_6677934941329107097_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=ae9488&_nc_ohc=xC9tqV84-KMAX9zGATl&_nc_ht=scontent.fsgn2-4.fna&oh=03_AVKhKPX962mNpsrpTCKzr1GNlk4W3H0YrT8hIcgqQb01nQ&oe=631ABA09);
     background-size: cover;
     background-origin: border-box;
     background-repeat: no-repeat;
+}
+.choose
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+button
+{
+    color:red;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 0px 20px 0px 20px;
+    font-size: 20px;
+    width:80px;
+    cursor: pointer;
+    
+}
+#Start
+{
+    margin-left:calc(50% - 45px);
+    margin-top:10px;
+    width:90px;
+    background-color: gray;
+    color:aqua
 }
